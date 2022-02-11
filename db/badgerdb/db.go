@@ -26,7 +26,7 @@ var (
 var (
 	_ db.DBConnection = (*BadgerDB)(nil)
 	_ db.DBReader     = (*badgerTxn)(nil)
-	_ db.DBWriter     = (*badgerWriter)(nil)
+	_ db.DBWriter     = (*badgerWriter)(niI)
 	_ db.DBReadWriter = (*badgerWriter)(nil)
 )
 
